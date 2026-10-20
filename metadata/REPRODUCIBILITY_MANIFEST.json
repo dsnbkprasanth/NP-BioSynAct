@@ -1,0 +1,75 @@
+{
+  "release_version": "1.0.1",
+  "release_date": "2026-10-20",
+  "git_commit": "TBD (populate when tagged)",
+  "python_version": "3.11",
+  "environment_file": "environment.yml",
+  "random_seeds": {
+    "python": 42,
+    "numpy": 42,
+    "pytorch": 42,
+    "cuda": 42,
+    "scaffold_split": 42,
+    "cv_fold": 42
+  },
+  "entry_points": [
+    {
+      "script": "run_all.sh",
+      "role": "end-to-end driver"
+    },
+    {
+      "script": "scripts/20_train_multitask.py",
+      "role": "multi-task MLP training"
+    },
+    {
+      "script": "scripts/30_coupling.py",
+      "role": "biosynthesis \u00d7 target coupling"
+    },
+    {
+      "script": "scripts/32_coupling_stats.py",
+      "role": "permutation nulls + FDR"
+    },
+    {
+      "script": "scripts/50_cv.py",
+      "role": "scaffold-split 5-fold CV"
+    },
+    {
+      "script": "scripts/54_dock.sh",
+      "role": "smina docking"
+    },
+    {
+      "script": "scripts/56_md.sh",
+      "role": "GROMACS 100 ns MD"
+    },
+    {
+      "script": "scripts/57_mmpbsa_analyze.sh",
+      "role": "gmx_MMPBSA ensemble"
+    },
+    {
+      "script": "scripts/61_unigbsa.sh",
+      "role": "Uni-GBSA single-frame dock-pose"
+    }
+  ],
+  "checksums_file": "metadata/CHECKSUMS.sha256",
+  "data_manifest": "metadata/DATA_MANIFEST.csv",
+  "configuration_file": "configs/release_config.yaml",
+  "external_data_sources": "metadata/SOURCE_PROVENANCE.md",
+  "numerical_tolerances": {
+    "roc_auc": 0.002,
+    "mmgbsa_delta_g_kcal_mol": 0.5,
+    "spearman_rho": 0.02
+  },
+  "hardware_tested": "Linux x86_64, 32 GB RAM, NVIDIA RTX 5070 12 GB",
+  "software_tested": {
+    "python": "3.11",
+    "pytorch": "2.7.0",
+    "cuda": "12.8",
+    "rdkit": "2024.03.5",
+    "sklearn": "1.5.1",
+    "gromacs": "2025.4",
+    "smina": "canonical build",
+    "gnina": "1.0",
+    "unigbsa": "0.1.6",
+    "gmx_MMPBSA": "1.7.0"
+  }
+}

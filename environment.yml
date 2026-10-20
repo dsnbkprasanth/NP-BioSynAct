@@ -1,0 +1,33 @@
+name: npbs
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=2.1.0
+  - pandas=2.2.2
+  - scipy=1.14.0
+  - scikit-learn=1.5.1
+  - matplotlib>=3.8
+  - seaborn>=0.13
+  - openpyxl>=3.1
+  - rdkit=2024.03.5
+  - openbabel
+  - mdanalysis>=2.7
+  - statsmodels>=0.14
+  - pytorch=2.7.0
+  - pytorch-cuda=12.8
+  # External tools (install separately per their docs):
+  #   smina        https://sourceforge.net/projects/smina/
+  #   gnina        https://github.com/gnina/gnina
+  #   gromacs=2025.4 (CUDA build)
+  #   acpype       pip install acpype
+  #   Uni-GBSA     pip install unigbsa==0.1.6
+  #   gmx_MMPBSA   pip install gmx_MMPBSA==1.7.0
+  - pip:
+    - chembl_webresource_client>=0.10
+    - acpype
+    - unigbsa==0.1.6
+    - gmx_MMPBSA==1.7.0

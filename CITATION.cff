@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "NP-BioSynAct: biosynthesis-aware polypharmacology prediction and structure-based prioritization of natural-product leads"
+authors:
+  - family-names: Prasanth
+    given-names: D.S.N.B.K.
+    email: dsnbkprasanth@gmail.com
+    affiliation: "Department of Pharmacognosy, School of Pharmacy and Technology Management (SPTM), SVKM's NMIMS Deemed to be University, Hyderabad, Telangana, India"
+version: 1.0.1
+date-released: 2026-10-20
+license: MIT
+repository-code: "https://github.com/dsnbkprasanth/NP-BioSynAct"
+type: software
+keywords:
+  - natural products
+  - polypharmacology
+  - biosynthesis
+  - machine learning
+  - molecular dynamics
+  - MM/GBSA
+  - traditional Chinese medicine

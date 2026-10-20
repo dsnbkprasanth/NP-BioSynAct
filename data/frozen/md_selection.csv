@@ -1,0 +1,6 @@
+target,code,name,smina_kcal,gnina_CNNaffinity,gnina_CNNscore,gnina_vina,gnina_top_at_target,concordant
+DPP4,NP06,"6,6,9-Trimethyl-3-pentyl-6a,7,8,10a-tetrahydro-6H-benzo(c)chromen-1-ol",-9.31,6.2293076515,0.807941556,-6.52262,NP06,YES
+MAPK14,NP08,Ochrobirine,-8.87,5.3361735344,0.5863567591,-6.89908,NP06,no
+NTRK1,NP07,"16,17-Dihydroxykauran-18-oic acid",-10.26,5.5662498474,0.5313051939,-5.58819,NP04,no
+OPRM1,NP08,Ochrobirine,-10.49,6.0953674316,0.6706220508,-7.70238,NP06,no
+PTGS2,NP08,Ochrobirine,-8.9,4.0899605751,0.3848114312,-5.82397,NP06,no

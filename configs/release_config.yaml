@@ -1,0 +1,81 @@
+# NP-BioSynAct v1.0.0 release configuration
+version: 1.0.1
+release_date: 2026-10-20
+
+seeds:
+  python_random: 42
+  numpy: 42
+  pytorch: 42
+  cuda: 42
+  scaffold_split: 42
+  cv_fold: 42
+
+ml:
+  fingerprint: ECFP4
+  fingerprint_bits: 2048
+  fingerprint_radius: 2
+  architecture: MLP
+  hidden_layers: [512, 256]
+  heads: 29
+  activation: sigmoid
+  dropout: 0.2
+  mc_dropout_samples: 20
+  optimizer: Adam
+  learning_rate: 1.0e-3
+  weight_decay: 1.0e-5
+  batch_size: 256
+  epochs: 30
+  early_stopping_metric: macro_ROC_AUC
+  cv_folds: 5
+  cv_split: scaffold
+  baselines:
+    - logistic_regression
+    - random_forest
+    - 1nn_tanimoto
+
+coupling:
+  test: mann_whitney_u_one_sided
+  correction: benjamini_hochberg
+  permutations: 1000
+  permutation_type: scaffold_stratified_class_label
+  label_permutations: 50
+  ad_tanimoto_threshold: 0.3
+  activity_threshold_active: 6.5     # pChEMBL
+  activity_threshold_inactive: 5.0   # pChEMBL
+
+docking:
+  engine_primary: smina
+  engine_rescoring: gnina_CNN
+  redock_rmsd_gate_angstrom: 2.0
+  decoys_per_lead_target: 50
+  decoys_passed_filter: 40
+
+md:
+  engine: GROMACS
+  version: 2025.4
+  protein_forcefield: AMBER99SB-ILDN
+  ligand_forcefield: GAFF2
+  water_model: TIP3P
+  box_padding_nm: 1.0
+  salt_molarity: 0.15
+  salt: NaCl
+  nvt_ps: 100
+  npt_ps: 100
+  production_ns: 100
+  timestep_fs: 2
+  constraints: LINCS
+  longrange: PME
+  cutoff_nm: 1.0
+  temperature_K: 310
+  pressure_bar: 1
+
+mmgbsa:
+  dockpose:
+    engine: Uni-GBSA
+    version: 0.1.6
+  ensemble:
+    engine: gmx_MMPBSA
+    version: 1.7.0
+    igb: 5
+    frames_per_complex: 251
+    equilibrated_window_ns: [20, 100]

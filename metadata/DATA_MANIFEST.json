@@ -1,0 +1,176 @@
+[
+  {
+    "path": "data/frozen/admet_leads.csv",
+    "sha256": "a2272df0522a7b3dacae40de57dbcf85e7df5b78ed2139d273775c9b079bf559",
+    "bytes": 53902,
+    "rows": 500
+  },
+  {
+    "path": "data/frozen/atlas_couplings_all.csv",
+    "sha256": "936fa2e7fefec6e9d53db92236dc76041038835bfdf8dcb76fc30382c254c869",
+    "bytes": 40991,
+    "rows": 500
+  },
+  {
+    "path": "data/frozen/atlas_couplings_specific.csv",
+    "sha256": "e9cf2d858a4d51bb6135e8f2324c3d6038f73dd2ece6d6292987d667b75a6470",
+    "bytes": 6430,
+    "rows": 67
+  },
+  {
+    "path": "data/frozen/biotransform.csv",
+    "sha256": "e14f40a65be89935b93e9be9fbee892129f8a98155c5b96ff24b0c4773d9cd5f",
+    "bytes": 16035,
+    "rows": 100
+  },
+  {
+    "path": "data/frozen/biotransform_control.csv",
+    "sha256": "78b19fc148951ff3e0ab85ecb5bbdc8df0e9b11aa1f9717291206b9a77cb4146",
+    "bytes": 5178,
+    "rows": 96
+  },
+  {
+    "path": "data/frozen/calibration.csv",
+    "sha256": "f593f93ecff32d88b6884bb5c0bb275d7c72197675a55b1b4a5d65c6cb071882",
+    "bytes": 99,
+    "rows": 3
+  },
+  {
+    "path": "data/frozen/compound_key.csv",
+    "sha256": "2f6842c0a7ff97567f0a884bd7d81958f6d77f5b3e8471e76414f24fcab15284",
+    "bytes": 1511,
+    "rows": 8
+  },
+  {
+    "path": "data/frozen/coupling_class_log2enrich.csv",
+    "sha256": "8bc95b5656c362f0a99ccb4e3b99299093d2e776ed38600609fb9a9a854fc4b3",
+    "bytes": 7489,
+    "rows": 47
+  },
+  {
+    "path": "data/frozen/coupling_class_mean.csv",
+    "sha256": "66a5bd43a50a655e3fca392790648f431d1daf32558e0a06af54d9363b8b0b8b",
+    "bytes": 20724,
+    "rows": 47
+  },
+  {
+    "path": "data/frozen/coupling_pathway_log2enrich.csv",
+    "sha256": "6401586db71ff2440a769ca9a84dce3254eed678d237cb40a22e1bd278706b58",
+    "bytes": 1239,
+    "rows": 7
+  },
+  {
+    "path": "data/frozen/coupling_pathway_mean.csv",
+    "sha256": "3cd560a9494953d4cb0e913630f3cbdae378db7a0019b82921ec36550dde8f5a",
+    "bytes": 3236,
+    "rows": 7
+  },
+  {
+    "path": "data/frozen/coupling_stats.csv",
+    "sha256": "8288196ffd5dedabe1dff52e335aea56979d885e2d218d5592ff79782e90ba05",
+    "bytes": 81595,
+    "rows": 1034
+  },
+  {
+    "path": "data/frozen/cv_results.csv",
+    "sha256": "497b56012a51743a6326b882c13d3b1c55582b9fa0b326cf11e802980170fa30",
+    "bytes": 1302,
+    "rows": 29
+  },
+  {
+    "path": "data/frozen/decoys.csv",
+    "sha256": "262e860d3798816df96b54884c550387e2d7dd7e1141b6f84fd8a0b88612aacb",
+    "bytes": 1117,
+    "rows": 8
+  },
+  {
+    "path": "data/frozen/dock_scores.csv",
+    "sha256": "7a34a53ec61dee6067d808874f41232eba1ff5666d0e9c4cc088c0672dfbb10e",
+    "bytes": 5633,
+    "rows": 119
+  },
+  {
+    "path": "data/frozen/dock_summary.csv",
+    "sha256": "e949c30bb52fef6083fa58aab2269eaa3fd375e05e9acf1a2108745180219d9a",
+    "bytes": 660,
+    "rows": 7
+  },
+  {
+    "path": "data/frozen/evidence_matrix.csv",
+    "sha256": "b554a7a2a71ae0581cefd709d5f560ee0808825fe57c377aea98788b94627c3a",
+    "bytes": 1450,
+    "rows": 8
+  },
+  {
+    "path": "data/frozen/final_leads.csv",
+    "sha256": "49911a1b84156ec12c132e2c5aec1e81911f8464a9d0b8cee8296af6a1d546e2",
+    "bytes": 5357,
+    "rows": 50
+  },
+  {
+    "path": "data/frozen/gnina_scores.csv",
+    "sha256": "b4b57969f8e0d7cec60e922098b4ea86a7e67f845615d4a92bc7167bda4d24ef",
+    "bytes": 1878,
+    "rows": 40
+  },
+  {
+    "path": "data/frozen/leads_diverse.csv",
+    "sha256": "4dbcaa384c9012d93ca9ea83c8489b9211ef7ebaabb566ae2474a4a6cdab19f2",
+    "bytes": 1289,
+    "rows": 8
+  },
+  {
+    "path": "data/frozen/md_inputs.csv",
+    "sha256": "19cf9538230a9bb7b0f0837e133fea6a1a554f57e4952d7a405b26f34745cc21",
+    "bytes": 78,
+    "rows": 5
+  },
+  {
+    "path": "data/frozen/md_selection.csv",
+    "sha256": "3ca2125365c3f3202d09b15e786201628bb138e9351ac4be5fe4300f2ac26496",
+    "bytes": 549,
+    "rows": 5
+  },
+  {
+    "path": "data/frozen/md_shortlist.csv",
+    "sha256": "12445a7f908105bf58c2616a2974894e7246ff501f5b70f7d284e8ed2f756004",
+    "bytes": 279,
+    "rows": 5
+  },
+  {
+    "path": "data/frozen/perm_coupling.csv",
+    "sha256": "8604e95efcbba67c951b5cae3fe665ed5d56e0be6a828c90120794cc2202e7e8",
+    "bytes": 114,
+    "rows": 1
+  },
+  {
+    "path": "data/frozen/perm_model.csv",
+    "sha256": "a8f0e05a7d69ddeeabe45cbd2affccd6660d72914290a48950b43d4542e57f3b",
+    "bytes": 112,
+    "rows": 1
+  },
+  {
+    "path": "data/frozen/smina_vs_gnina.csv",
+    "sha256": "a38341f4c80b83b08e7109053b07d06b02fe931a5f819e1e099dfb256d0decc3",
+    "bytes": 2228,
+    "rows": 42
+  },
+  {
+    "path": "data/frozen/split_comparison.csv",
+    "sha256": "585f233c033fa3f072f77a7aa70a129dff7d3b1539478dbef4bc12d9f4180f64",
+    "bytes": 70,
+    "rows": 2
+  },
+  {
+    "path": "data/frozen/targets.tsv",
+    "sha256": "40edd8ce86c8cd8d6143bf31fb0c1dee4fbc9c150b35809096b18deffec78b1c",
+    "bytes": 116,
+    "rows": null
+  },
+  {
+    "path": "data/frozen/unigbsa_scores.csv",
+    "sha256": "7d129d2e2c3cdcf29bd230b11620239d9cdce0d9eeafbc35ca57b92722a304fc",
+    "bytes": 630,
+    "rows": 2
+  }
+]

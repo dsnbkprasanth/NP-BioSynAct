@@ -1,0 +1,9 @@
+inchikey,bio_class,mean_prob,n_hits,QED,SAscore,BBB,Lipinski_viol,AD,dock_smina,dock_gnina,redock_rmsd,MD_stable,MMPBSA_dG,key_residues,tier
+DMFHLLHXYQJPJS-UHFFFAOYSA-N,Tyrosine alkaloids,0.778,16,0.829,2.82,True,0,inside,pending,pending,pending,pending,pending,pending,Tier2 (ML+AD+ADMET+docking pending)
+XYWRZQQANNOTTD-UHFFFAOYSA-N,Tyrosine alkaloids,0.805,17,0.852,3.79,True,0,inside,pending,pending,pending,pending,pending,pending,Tier2 (ML+AD+ADMET+docking pending)
+MRBLTWPEPGRXQN-UHFFFAOYSA-N,Diterpenoids,0.728,16,0.723,5.64,True,0,inside,pending,pending,pending,pending,pending,pending,Tier2 (ML+AD+ADMET+docking pending)
+UWEHVAXMSWXKRW-UHFFFAOYSA-N,Tyrosine alkaloids,0.791,16,0.841,3.0,True,0,inside,pending,pending,pending,pending,pending,pending,Tier2 (ML+AD+ADMET+docking pending)
+UBNNPLDHPRBMNV-UHFFFAOYSA-N,Ornithine alkaloids,0.797,18,0.737,3.17,True,0,inside,pending,pending,pending,pending,pending,pending,Tier2 (ML+AD+ADMET+docking pending)
+VCIZOTXPSIGTKG-UHFFFAOYSA-N,Tyrosine alkaloids,0.77,15,0.745,4.15,True,0,inside,pending,pending,pending,pending,pending,pending,Tier2 (ML+AD+ADMET+docking pending)
+JQOTXJRWMCMWBT-UHFFFAOYSA-N,Tyrosine alkaloids,0.695,16,0.73,4.62,False,0,inside,pending,pending,pending,pending,pending,pending,Tier2 (ML+AD+ADMET+docking pending)
+CYQFCXCEBYINGO-UHFFFAOYSA-N,Meroterpenoids,0.762,16,0.567,3.44,True,1,inside,pending,pending,pending,pending,pending,pending,Tier2 (ML+AD+ADMET+docking pending)

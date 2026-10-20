@@ -1,0 +1,9 @@
+code,name,pubchem_name,id,source,bio_class,inchikey,smiles
+NP01,Glaucamine,Glaucamine,Q105344722_64501,LOTUS,Tyrosine alkaloids,XYWRZQQANNOTTD-UHFFFAOYSA-N,COc1cc2c(cc1OC)C1OC(O)c3c(ccc4c3OCO4)C1N(C)CC2
+NP02,Pyrrolizixenamide A,Pyrrolizixenamide A,Q77425016_752342,LOTUS,Ornithine alkaloids,UBNNPLDHPRBMNV-UHFFFAOYSA-N,CCCCCC(=O)NC1=CC(=O)C2CCCN12
+NP03,(+-)-Sinactine,(+-)-Sinactine,Q27155305_71474,LOTUS,Tyrosine alkaloids,UWEHVAXMSWXKRW-UHFFFAOYSA-N,COc1cc2c(cc1OC)C1Cc3ccc4c(c3CN1CC2)OCO4
+NP04,"5,6,13,13a-Tetrahydro-2,3,9,10-tetramethoxy-8h-dibenzo[a,g]quinolizin-8-one","5,6,13,13a-Tetrahydro-2,3,9,10-tetramethoxy-8h-dibenzo[a,g]quinolizin-8-one",Q104985054_508477,LOTUS,Tyrosine alkaloids,DMFHLLHXYQJPJS-UHFFFAOYSA-N,COc1cc2c(cc1OC)C1Cc3ccc(OC)c(OC)c3C(=O)N1CC2
+NP05,(+-)-Teframidine,(+-)-Teframidine,Q104383527_170270,LOTUS,Tyrosine alkaloids,VCIZOTXPSIGTKG-UHFFFAOYSA-N,CN1CC2c3cc4c(cc3CC1c1cc3c(cc12)OCO3)OCO4
+NP06,"6,6,9-Trimethyl-3-pentyl-6a,7,8,10a-tetrahydro-6H-benzo(c)chromen-1-ol","6,6,9-Trimethyl-3-pentyl-6a,7,8,10a-tetrahydro-6H-benzo(c)chromen-1-ol",Q104972491_415307,LOTUS,Meroterpenoids,CYQFCXCEBYINGO-UHFFFAOYSA-N,CCCCCc1cc(O)c2c(c1)OC(C)(C)C1CCC(C)=CC21
+NP07,"16,17-Dihydroxykauran-18-oic acid","16,17-Dihydroxykauran-18-oic acid",Q105170457_346038,LOTUS,Diterpenoids,MRBLTWPEPGRXQN-UHFFFAOYSA-N,CC1(C(=O)O)CCCC2(C)C3CCC4CC3(CCC12)CC4(O)CO
+NP08,Ochrobirine,Ochrobirine,Q105133576_628607,LOTUS,Tyrosine alkaloids,JQOTXJRWMCMWBT-UHFFFAOYSA-N,CN1CCc2cc3c(cc2C12C(O)c1ccc4c(c1C2O)OCO4)OCO3

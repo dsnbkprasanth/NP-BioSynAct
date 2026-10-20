@@ -1,0 +1,8 @@
+target,redock_rmsd,valid,best_lead,best_lead_name,best_lead_score,mean_lead,best_decoy_score,mean_decoy,lead_beats_decoy_mean
+ADRB2,9.71,False,NP05,(+-)-Teframidine,-7.4,-6.98,-7.84,-7.29,False
+DPP4,0.22,True,NP06,"6,6,9-Trimethyl-3-pentyl-6a,7,8,10a-tetrahydro-6H-benzo(c)chromen-1-ol",-9.31,-7.85,-9.83,-8.3,False
+MAPK14,0.58,True,NP08,Ochrobirine,-8.87,-7.65,-8.38,-7.72,False
+NTRK1,0.4,True,NP07,"16,17-Dihydroxykauran-18-oic acid",-10.26,-8.74,-9.76,-8.87,False
+OPRM1,0.57,True,NP08,Ochrobirine,-10.49,-9.06,-10.34,-8.89,True
+PPARG,5.17,False,NP05,(+-)-Teframidine,-9.85,-8.1,-8.63,-8.01,True
+PTGS2,1.69,True,NP08,Ochrobirine,-8.9,-7.91,-9.28,-8.07,False
